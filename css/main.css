@@ -1498,18 +1498,46 @@ a {
 
 .portfoliofoto {
   box-sizing: border-box;
-  width: 370px;
   background: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+  .portfoliofoto {
+    width: 370px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfoliofoto {
+    width: 354px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfoliofoto {
+    width: 450px;
+  }
 }
 
 .textbotoomboxportfolio {
-  width: 370px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+}
+@media screen and (min-width: 1200px) {
+  .textbotoomboxportfolio {
+    width: 370px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .textbotoomboxportfolio {
+    width: 354px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .textbotoomboxportfolio {
+    width: 450px;
+  }
 }
 
 .butwork:not(:last-child) {
@@ -1520,19 +1548,57 @@ a {
 .flex-box {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.st-no-point.flex-box > li {
-  margin-right: 30px;
-  margin-bottom: 30px;
+@media screen and (min-width: 1200px) {
+  .st-no-point.flex-box > li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .st-no-point.flex-box > li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .st-no-point.flex-box > li {
+    margin-right: 0;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
 }
 
-.st-no-point.flex-box > li:nth-child(3n) {
-  margin-right: 0px;
+@media screen and (min-width: 1200px) {
+  .st-no-point.flex-box > li:nth-last-child(-n+3) {
+    margin-bottom: 0px;
+  }
 }
 
-.st-no-point.flex-box > li:nth-last-child(-n+3) {
-  margin-bottom: 0px;
+@media screen and (min-width: 768px) {
+  .st-no-point.flex-box > li:nth-child(2n) {
+    margin-right: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .st-no-point.flex-box > li:nth-child(2n) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .st-no-point.flex-box > li:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .st-no-point.flex-box > li:nth-child(3n) {
+    margin-right: 0px;
+  }
 }
 
 .portfolishdow-img {
