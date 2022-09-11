@@ -12,6 +12,14 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  @media screen and(max-width:1199px) {
+    width: 450px;
+    height: 609px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 528px;
+    height: 581px;
+  }
   width: 528px;
   height: 581px;
   border-radius: 4px;

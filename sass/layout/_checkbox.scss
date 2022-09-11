@@ -16,8 +16,16 @@
    font-family: "Roboto";
    font-style: normal;
    font-weight: 400;
-   font-size: 14px;
-   line-height: 24px;
+   @media screen and (max-width: 1199px){
+    font-size: 12px;
+    line-height: 14px;     
+  }
+
+  @media screen and (min-width: 1200px){
+    font-size: 14px;
+   line-height: 24px;     
+  }
+   
    letter-spacing: 0.03em;
    color: #757575;
 
@@ -88,13 +96,23 @@
    position: relative;
    font-family: "Roboto";
    font-weight: 400;
-   font-size: 14px;
-   line-height: 24px;
+    @media screen and (max-width: 1199px){
+      font-size: 12px;
+    line-height: 14px;     
+  }
+
+  @media screen and (min-width: 1200px){
+    font-size: 14px;
+   line-height: 24px;     
+  }
    letter-spacing: 0.03em;
    color: #2196f3;
    &::after {
     position: absolute;
-    bottom: 5.5px;
+    @media screen and (max-width: 1199px){
+    bottom: 3.5px;}
+    @media screen and (min-width: 1200px){
+    bottom: 5.5px;}
     content: "";
     width: 100%;
     right: 0;
