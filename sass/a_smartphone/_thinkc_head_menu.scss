@@ -1,0 +1,127 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// button menu
+.smartmobil {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+ 
+  width: 100vh;
+  @media screen and (min-width: 320px) {
+   width: 100%;
+ } 
+  height: 100%;
+
+    
+  padding-right: 0;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.containers{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   padding-top: 21px;
+   padding-left: 40px;
+   padding-bottom: 48px;
+   padding-right: 23px;
+   @media screen and (min-width: 480px) {
+      width: 480px;
+      margin-bottom: auto;
+      margin-right: auto;
+
+    }
+}
+
+// куди біжить кнопка
+.buton-smartmobil{
+ display: flex;
+ justify-content: space-between; 
+ align-items: center;
+}
+.button-nav__iconcmobil
+
+
+.haedrnav,
+.navigation,
+.connection {
+  @media screen and (max-width: 767.5px) {
+    display: none;
+  }
+}
+
+
+.smartmobil {
+  @media screen and (min-width: 767.5px) {
+    display: none;
+  }
+}
+
+// .headrnavs-smartmobil {
+//         display: flex;
+//         align-items: center;
+//         background-color: rgb(127, 138, 255);
+//         justify-content: space-between;
+//         padding-right: 0;
+//         @media screen and (min-width: 768px) {
+//          display: none;
+//         }
+// }
+
+.button-nav {
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+
+  width: 24px;
+  height: 16px;
+  border: 1px solid #259;
+}
+
+.button-nav .button-nav__iconcontact {
+  display: none;
+  margin-left: auto;
+}
+
+.button-nav.is-open .button-nav__iconcontact {
+  display: block;
+  margin-left: auto;
+}
+
+.button-nav.is-open .button-nav__iconcmobil {
+  display: none;
+  margin-left: auto;
+}

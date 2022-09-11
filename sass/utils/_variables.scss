@@ -1,7 +1,13 @@
 :root {
-   --brandhover-color: #2196f3;
+ 
    --textheadrgre-color: #757575;
    --textgre-color: #757575;
    --button-color: #f5f4fa;
    --buttontext-color: rgba(33, 33, 33, 1);
  }
+
+ 
+ $gradient: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );

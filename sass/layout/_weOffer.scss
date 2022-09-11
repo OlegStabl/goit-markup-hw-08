@@ -13,8 +13,8 @@
    line-height: 1.71;
    letter-spacing: 0.03em;
    color: var(--textgre-color);
-   margin-top: 0px;
-   margin-bottom: 0px;
+   
+   @extend %margin_nul_t_b;
    padding-top: 10px;
  }
 
@@ -44,9 +44,9 @@
 }
 
 
-.symbol__distance {
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
+// .symbol__distance {
+//   margin-right: 30px;
+//   margin-bottom: 30px;
+// }
 
 

@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  
+}
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  min-width: 310px;
+  max-width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  margin: 0px auto;
+  
+
+ 
+ 
+ 
+  @media screen and (max-width: 479px) {
+    width: 310px;
+   
+    
+    // background-color: #9792f3;
+
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    // background-color: #3f2596;
+  }
+  
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    // background-color: #259296;
+  } 
+ 
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    // background-color: #329625;
+
+  }
+ 
+
+
+
+ }
+
+
+
+
+.section {
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+//  for a laptop
+
+//  .container {
+//    padding-left: 15px;
+//    padding-right: 15px;
+//    margin-bottom: 0px;
+//    width: 1200px;
+//    margin: 0px auto;
+//  }
+
+
+
+ .sectfoot {
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #2f303a;
+}
+
+// .st-no-point {
+//   display: flex;
+// }
+
+// .whataround
+//  {
+//   justify-content: space-between;
+// }
+// .containera--dekor {
+//   display: flex;
+//  }

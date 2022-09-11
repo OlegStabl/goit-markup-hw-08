@@ -1,72 +1,93 @@
-// order
-.order__buttorder {
-   cursor: pointer;
+// order  smart tabl width: 200px; ,   laptop width: 216px;
 
-   width: 216px;
-   height: 50px;
- 
-   background: #2196f3;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   color: #ffffff;
- 
-   border-radius: 4px;
-   border: none;
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.88;
-   letter-spacing: 0.06em;
- 
-   align-items: center;
-   text-align: center;
-   
-   margin-top: 30px;
-   
-   transition-duration: 250ms;
-   transition-property: background-color, color;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-     background: #188ce8;
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    }
- }
+// .order__buttorder {
+//    cursor: pointer;
 
+//    width: 216px;
+//    height: 50px;
 
+//    background: #2196f3;
+//    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//    color: #ffffff;
+
+//    border-radius: 4px;
+//    border: none;
+//    font-weight: 700;
+//    font-size: 16px;
+//    line-height: 1.88;
+//    letter-spacing: 0.06em;
+
+//    align-items: center;
+//    text-align: center;
+
+//    margin-top: 30px;
+
+//    transition-duration: 250ms;
+//    transition-property: background-color, color;
+//    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     &:hover,
+//     &:focus {
+//      background: #188ce8;
+//      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     }
+//  }
 
 // portfolio
 
 .button {
-   border: none;
-   cursor: pointer;
-  
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.6;
-   text-align: center;
-   letter-spacing: 0.03em;
-   background-color: var(--button-color);
-   color: var(--buttontext-color);
-   border-radius: 4px;
- 
-   transition-duration: 250ms;
-   transition-property: background-color, color;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+  border: none;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--button-color);
+  color: var(--buttontext-color);
+  border-radius: 4px;
+
+  transition-duration: 250ms;
+  transition-property: background-color, color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
-  color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: #ffffff;
-  background: #2196f3;
+    color: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #ffffff;
+    background: #2196f3;
   }
- }
+}
 
+//  portfoli size button? svg we offer?
+.butwork:not(:last-child) {
+  margin-right: 8px;
+  @media screen and(max-width: 760px) {
+    
+  margin-bottom: 15px;}
+}
 
 
 .butworks {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  @media screen and(max-width: 480px) {
+  justify-content: space-evenly;}
+  @media screen and(min-width: 480px) {
+    margin-bottom: 40px;
+    justify-content: start;
+  }
+  @media screen and(min-width: 760px) {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 50px;
+    justify-content: center;
+  }
 }
 
 .sizi_all {
@@ -93,35 +114,32 @@
 // mailinglist
 
 .mailinglist-button {
-   position: absolute;
-   cursor: pointer;
+  cursor: pointer;
 
-   width: 200px;
-   height: 50px;
- 
-   background: #2196f3;
-   border-radius: 4px;
-   border: none;
- 
-   font-family: "Roboto";
-   font-style: normal;
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.88;
-   letter-spacing: 0.06em;
-   color: #ffffff;
-   &:focus,
-   &:hover {
-      background: #188ce8;
-    }
+  width: 200px;
+  height: 50px;
 
- }
-// .mailinglist-button:focus,
-// .mailinglist-button:hover {
-//    background: #188ce8;
-//  }
+  background: #2196f3;
+  border-radius: 4px;
+  border: none;
 
- .mailinglist-buttontext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  &:focus,
+  &:hover {
+    background: #188ce8;
+  }
+  @media screen and (min-width: 1200px) {
+    position: absolute;
+  }
+}
+
+.mailinglist-buttontext {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,64 +150,56 @@
   fill: #ffffff;
 }
 
-
 //  contact
 
-.submitik {
-   position: fixed;
-   right: 50%;
-   transform: translate(50%);
+// .submitik {
+//    position: fixed;
+//    right: 50%;
+//    transform: translate(50%);
 
-   bottom: 40px;
- 
-   width: 200px;
-   height: 50px;
-   align-items: center;
-   text-align: center;
+//    bottom: 40px;
 
-   background: #2196f3;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
-   border: none;
- 
-   font-family: "Roboto";
-   font-style: normal;
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.88;
-   letter-spacing: 0.06em;
-   color: #ffffff;
-   &:focus,
-   &:hover {
-      background: #188ce8;
-    }
- }
- 
+//    width: 200px;
+//    height: 50px;
+//    align-items: center;
+//    text-align: center;
 
+//    background: #2196f3;
+//    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//    border-radius: 4px;
+//    border: none;
+
+//    font-family: "Roboto";
+//    font-style: normal;
+//    font-weight: 700;
+//    font-size: 16px;
+//    line-height: 1.88;
+//    letter-spacing: 0.06em;
+//    color: #ffffff;
+//    &:focus,
+//    &:hover {
+//       background: #188ce8;
+//     }
+//  }
 
 //  contact cloose
 
-.modalose {
-   cursor: pointer;
-   position: absolute;
-   justify-content: center;
+// .modalose {
+//    cursor: pointer;
+//    position: absolute;
+//    justify-content: center;
 
-   width: 29px;
-   height: 29px;
+//    width: 29px;
+//    height: 29px;
 
-   border-radius: 15px;
-   top: 8px;
-   right: 8px;
-   border: 1px solid rgba(0, 0, 0, 0.1);
-   background: #ffffff;
-   
+//    border-radius: 15px;
+//    top: 8px;
+//    right: 8px;
+//    border: 1px solid rgba(0, 0, 0, 0.1);
+//    background: #ffffff;
 
-   &:hover,
-   &:focus {
-      fill: #2196f3;
-    } 
- }
-
-
-
-
+//    &:hover,
+//    &:focus {
+//       fill: #2196f3;
+//     }
+//  }

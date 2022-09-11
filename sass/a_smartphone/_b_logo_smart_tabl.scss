@@ -1,0 +1,101 @@
+// smart and tabl
+
+%logo {
+  
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  color: #2196f3;
+  justify-content: center;
+}
+
+.logo {
+  @extend %logo;
+
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+
+  &__part {
+    color: #000000;
+  }
+}
+
+// margin-right mob 276 tabl 88 laptop 93
+
+.logo__part--backdown {
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}
+
+//  footer
+.logo__proportion {
+  color: #ffffff;
+  &--decor {
+   padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 0px;
+  }
+}
+
+// footer smart
+.logo {
+  @extend %logo;
+
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  &__proportion {
+    color: #ffffff;
+    &--decor {
+      padding-top: 24px;
+      padding-bottom: 25px;
+      margin-right: 0px;
+    }
+  }
+}
+
+// .ada{
+//   @media screen and (min-width: 1200px) {
+//     justify-content: space-between;
+//   }
+
+//   @media screen and (max-width: 767.5px) {
+//     display: flex;
+//     justify-content: center;
+//   }
+// }
+.studio,
+.telmailfoot,
+.tellfon {
+  @media screen and (max-width: 1199.5px) {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// footer tabl
+.containera--dekor{
+@media screen and (min-width: 760px) {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+}

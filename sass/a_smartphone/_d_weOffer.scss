@@ -1,0 +1,106 @@
+.symbol {
+  display: flex;
+  flex-wrap: wrap;
+  color: currentcolor;
+ 
+  margin-top: 0px;
+  
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  @media screen and (max-width: 479.5px) {
+    justify-content: center;
+    margin-right: -5px;
+  }
+
+  @media screen and (min-width: 480px) {
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+  }
+
+ 
+  
+}
+
+.symbol__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.symbol__text {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--textgre-color);
+  @extend %margin_nul_t_b;
+  padding-top: 10px;
+
+  width: 270px;
+}
+
+.symbol__composition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  width: 270px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.symbol__distanceo {
+  margin-bottom: 30px;
+  justify-content: center;
+  @media screen and (max-width: 767.5px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.symbol__text,
+.symbol__composition {
+  
+  @media screen and (min-width: 480px) {
+    width: 354px;
+  }
+  @media screen and (max-width: 1199.5px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+  @media screen and (max-width: 767.5px) {
+    width: 450px;
+  }
+
+  @media screen and (max-width: 480px) {
+   width: 100%;
+   margin-right: 0px;
+ }
+
+//  зробити додатковий розмір 90% після 480 px
+}
+
+//   @media screen and (min-width: 768px) {
+//     width: 354px;
+//   }
+//   @media screen and (max-width: 1199.5px) {
+//     width: 354px;
+//   }
+//   @media screen and (min-width: 1200px) {
+//     width: 270px;
+//   }
+//   @media screen and (max-width: 767.5px) {
+//     width: 450px;
+//   }

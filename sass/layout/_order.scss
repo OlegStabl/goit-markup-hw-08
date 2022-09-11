@@ -1,38 +1,73 @@
+// _d_order_smart_tabl too code
+
+// _d_order_smart_tabl
+
+$gradient: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+
 .order__slogan {
-   font-weight: 900;
-   font-size: 44px;
-   line-height: 1.36;
-   text-align: center;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;
-   color: #ffffff;
+  @media screen and (min-width: 1200px) {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
   }
-
-.basis {
-   
-   padding-top: 200px;
-   padding-bottom: 200px;
-   background: #2f303a;
- }
- .gradient.basis {
-   max-width: 1600px;
-   margin-left: auto;
-   margin-right: auto;
-   background-image: linear-gradient(
-       rgba(47, 48, 58, 0.4),
-       rgba(47, 48, 58, 0.4)
-     ),
-     url(../images/fon_h_fotto.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
-
-
-.order {
-  max-width: 680px;
-  margin: 0px auto;
-  text-align: center;
 }
 
- 
+// .order {
+//   max-width: 680px;
+//   margin: 0px auto;
+//   text-align: center;
+// }
+
+.gradient.basis {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 767.5px) {
+  .gradient.basis {
+    min-width: 310px;
+    background-image: $gradient, url(../images/smart/fon_h_fotto_first.jpg);
+  }
+
+  @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .gradient.basis {
+      min-width: 310px;
+      background-image: $gradient, url(../images/smart/fon_h_fotto_next.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gradient.basis {
+   
+    background-image: $gradient, url(../images/tabl/fon_h_fotto_first.jpg);
+  }
+
+  @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .gradient.basis {
+      
+      background-image: $gradient, url(../images/tabl/fon_h_fotto_next.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gradient.basis {
+    max-width: 1600px;
+    background-image: $gradient, url(../images/laptop/fon_h_fotto_first.jpg);
+  }
+
+  @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .gradient.basis {
+      
+      background-image: $gradient, url(../images/laptop/fon_h_fotto_next.jpg);
+    }
+  }
+}

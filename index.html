@@ -22,59 +22,90 @@
     <!--nov&communication!-->
     <header class="visor">
       <div class="container haedrnav">
+        <a href="./" lang="en" class="logo">
+          Web
+          <span class="logo__part logo__part--backdown">Studio</span>
+        </a>      
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            class="button-nav__svgen-open"
+            width="24"
+            height="16"
+            aria-label="Перемикач меню"
+          >
+            <use
+              class="button-nav__iconcmobil"
+              href="./images/icons.svg#icon-menu_mobil"
+            ></use>
+          </svg>
+        </button>
         <nav class="headrnavs">
-          <a href="./" lang="en" class="logo">
-            Web<span class="logo__part logo__part--backdown">Studio</span>
-          </a>
+         
           <ul class="navigation">
             <li class="navigation__title">
-              <a href="./" class="navigation__page navigation__page--dekor"
-                >Студія <span class=" navigatio__emphasis">Студія</span>
+              <a href="./" class="navigation__chapter navigation__chapter--dekor">
+                
+                <span class="navigatio__emphasis">Студія</span>
               </a>
             </li>
             <li class="navigation__title">
-              <a href="./portfolio.html" class=" navigation__chapter navigation__chapter--dekor"
-                >Портфоліо</a
+              <a
+                href="./portfolio.html"
+                class="navigation__chapter navigation__chapter--dekor"
               >
+                Портфоліо
+              </a>
             </li>
             <li class="navigation__title">
-              <a href="#addresstudio" class=" navigation__chapter navigation__chapter--dekor">Контакти</a>
+              <a
+                href="#addresstudio"
+                class="navigation__chapter navigation__chapter--dekor"
+              >
+                Контакти
+              </a>
             </li>
           </ul>
         </nav>
-        <ul class="connection">
-          <li class="connection__list  connection__list--backdown">
-            <a
-              href="mailto:info@devstudio.com"
-              lang="en"
-              class="connection__item connection__item--backdown"
-            >
-              <svg class="connection__icon" width="16" height="12">
-                <use
-                  href="./images/icons.svg#icon-envelope"
-                 
-                ></use></svg
-              >info@devstudio.com</a
-            >
-          </li>
-          <li >
-            <a href="tel:+380961111111" class=" connection__item connection__item--backdown">
-              <svg class="connection__icon" width="16" height="12">
-                <use
-                  href="./images/icons.svg#icon-smartphone"
-                  
-                ></use></svg
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        <div class="connection_tabl">
+          <ul class="connection" >
+            <li class="connection__list connection__list--backdown">
+              <a
+                href="mailto:info@devstudio.com"
+                lang="en"
+                class="connection__item connection__item--backdown"
+              >
+                <svg class="connection__icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="connection__list">
+              <a
+                href="tel:+380961111111"
+                class="connection__item connection__item--backdown"
+              >
+                <svg class="connection__icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </div>
+        
       </div>
+     
     </header>
     <main>
       <!-- slogan&order -->
       <section class="section basis gradient">
-        <div class=" container  ">
-          <div class=" order ">
+        <div class="container">
+          <div class="order">
             <h1 class="order__slogan">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="order__buttorder" data-modal-open>
               Замовити послугу
@@ -85,13 +116,11 @@
       <!-- what we offer -->
       <section class="section">
         <div class="container">
-          <ul class="symbol ">
-            <li class="symbol__distance">
+          <ul class="symbol">
+            <li class="symbol__distanceo">
               <div class="symbol__composition">
-                <svg  width="70" height="70">
-                  <use
-                    href="./images/icons.svg#icon-antenna-1"                   
-                  ></use>
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
               <h2 class="symbol__title">УВАГА ДО ДЕТАЛЕЙ</h2>
@@ -100,12 +129,10 @@
                 формування позиції.
               </p>
             </li>
-            <li class="symbol__distance">
+            <li class="symbol__distanceo">
               <div class="symbol__composition">
-                <svg  width="70" height="70">
-                  <use
-                    href="./images/icons.svg#icon-clock-1"                   
-                  ></use>
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
               <h2 class="symbol__title">ПУНКТУАЛЬНІСТЬ</h2>
@@ -114,12 +141,10 @@
                 тягне у себе.
               </p>
             </li>
-            <li class="symbol__distance">
+            <li class="symbol__distanceo">
               <div class="symbol__composition">
-                <svg  width="70" height="70">
-                  <use
-                    href="./images/icons.svg#icon-diagram-1"                   
-                  ></use>
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
               <h2 class="symbol__title">ПЛАНУВАННЯ</h2>
@@ -127,12 +152,10 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="symbol__distance">
+            <li class="symbol__distanceo">
               <div class="symbol__composition">
-                <svg  width="70" height="70">
-                  <use
-                    href="./images/icons.svg#icon-astronaut-1"                   
-                  ></use>
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
               <h2 class="symbol__title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
@@ -148,10 +171,10 @@
       <section class="section section--padding">
         <div class="container">
           <h2 class="part part--decor">Чим ми займаємося</h2>
-          <ul class=" renderings renderings--decor">
+          <ul class="renderings renderings--decor">
             <li>
               <div class="renderings__position">
-                <h3 class=" renderings__text">Десктопні додатки</h3>
+                <h3 class="renderings__text">Десктопні додатки</h3>
                 <img
                   src="./images/foto_tab_black.jpg"
                   alt="Фотографія планшета з чорним екраном"
@@ -186,223 +209,322 @@
       <section class="section section--margin">
         <div class="container">
           <h2 class="part part--decor">Наша команда</h2>
-          <ul class="card  card--decor">
+          <ul class="card card--decor">
             <li>
-             <div class="card__foto" >
-                <img
+              <div class="card__foto">
+                <picture>
+                  <source
+                  srcset="
+                  ./images/smart/foto1_produkt_designer_first.jpg 1x,
+                  ./images/smart/foto1_produkt_designer_next.jpg  2x
+                  "
+                  media="(max-width:767px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/tabl/foto1_produkt_designer_first.jpg 1x,
+                  ./images/tabl/foto1_produkt_designer_next.jpg  2x
+                  "
+                  media="(min-width:768px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/laptop/foto1_produkt_designer_first.jpg 1x,
+                  ./images/laptop/foto1_produkt_designer_next.jpg  2x
+                  "
+                  media="(min-width:1200px)"
+                  />                
+                 <img
                   src="./images/foto1_produkt_designer.jpg"
                   alt="фото Ігоря дизайнера буде"
-                  width="270"
-                />
+                  width="460"
+                 />
+                </picture>
                 <div class="card__blok">
                   <h3 class="card__name">Ігор Дем'яненко</h3>
-                  <p lang="en" class="card__profession card__profession--decor">Product Designe</p>
-                 <div class="networks">
-                  <ul class="networks__item networks__item--dekor">
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-instagram_grey"
-                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-twitter_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-facebook_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
+                  <p lang="en" class="card__profession card__profession--decor">
+                    Product Designe
+                  </p>
+                  <div class="networks">
+                    <ul class="networks__item networks__item--dekor">
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-instagram_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-twitter_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-facebook_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-               </div>
-             </div>
+              </div>
             </li>
             <li>
-            <div class="card__foto">
-                <img
+              <div class="card__foto">
+                <picture>
+                  <source
+                  srcset="
+                  ./images/smart/foto2_fronted_first.jpg 1x,
+                  ./images/smart/foto2_fronted_next.jpg  2x
+                  "
+                  media="(max-width:767px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/tabl/foto2_fronted_first.jpg 1x,
+                  ./images/tabl/foto2_fronted_next.jpg  2x
+                  "
+                  media="(min-width:768px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/laptop/foto2_fronted_first.jpg 1x,
+                  ./images/laptop/foto2_fronted_next.jpg  2x
+                  "
+                  media="(min-width:1200px)"
+                  />                
+                  <img
                   src="./images/foto2_fronted.jpg"
                   alt="фото Ольги фронтенда буде"
-                  width="270"
-                />
-              <div class="card__blok">
+                  width="460"
+                  />
+                </picture>
+                
+                <div class="card__blok">
                   <h3 class="card__name">Ольга Рєпіна</h3>
-                  <p lang="en" class="card__profession card__profession--decor">Frontend Developer</p>
-                <div class="networks">
-                  <ul class="networks__item networks__item--dekor">
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-instagram_grey"
-                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-twitter_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-facebook_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
+                  <p lang="en" class="card__profession card__profession--decor">
+                    Frontend Developer
+                  </p>
+                  <div class="networks">
+                    <ul class="networks__item networks__item--dekor">
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-instagram_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-twitter_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-facebook_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
             </li>
             <li>
-            <div class="card__foto">
-                <img
+              <div class="card__foto">
+                <picture>
+                  <source
+                  srcset="
+                  ./images/smart/foto3_marketing_first.jpg 1x,
+                  ./images/smart/foto3_marketing_next.jpg  2x
+                  "
+                  media="(max-width:767px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/tabl/foto3_marketing_first.jpg 1x,
+                  ./images/tabl/foto3_marketing_next.jpg  2x
+                  "
+                  media="(min-width:768px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/laptop/foto3_marketing_first.jpg 1x,
+                  ./images/laptop/foto3_marketing_next.jpg  2x
+                  "
+                  media="(min-width:1200px)"
+                  />                
+                  <img
                   src="./images/foto3_marketing.jpg"
                   alt="фото Миколи по маркетингу буде"
-                  width="270"
+                  width="460"
                 />
-              <div class="card__blok">
+                </picture>
+                
+                <div class="card__blok">
                   <h3 class="card__name">Микола Тарасов</h3>
-                  <p lang="en" class="card__profession card__profession--decor">Marketing</p>
-                <div class="networks">
-                  <ul class="networks__item networks__item--dekor">
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-instagram_grey"
-                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-twitter_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-facebook_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                 </div>
-               </div>
-            </div>
+                  <p lang="en" class="card__profession card__profession--decor">
+                    Marketing
+                  </p>
+                  <div class="networks">
+                    <ul class="networks__item networks__item--dekor">
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-instagram_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-twitter_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-facebook_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </li>
             <li>
-             <div class="card__foto">
-                <img
+              <div class="card__foto">
+                <picture>
+                  <source
+                  srcset="
+                  ./images/smart/foto4_ui_designer_first.jpg 1x,
+                  ./images/smart/foto4_ui_designer_next.jpg  2x
+                  "
+                  media="(max-width:767px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/tabl/foto4_ui_designer_first.jpg 1x,
+                  ./images/tabl/foto4_ui_designer_next.jpg  2x
+                  "
+                  media="(min-width:768px)"
+                  />
+                  <source
+                  srcset="
+                  ./images/laptop/foto4_ui_designer_first.jpg 1x,
+                  ./images/laptop/foto4_ui_designer_next.jpg  2x
+                  "
+                  media="(min-width:1200px)"
+                  />                
+                  <img
                   src="./images/foto4_ui_designer.jpg"
                   alt="фото Михайла дизайнера буде"
-                  width="270"
-                />
-               <div class="card__blok">
+                  width="460"
+                  />
+                </picture>
+                
+                <div class="card__blok">
                   <h3 class="card__name">Михайло Єрмаков</h3>
-                  <p lang="en" class="card__profession card__profession--decor">UI Designer</p>
-                 <div class="networks">
-                  <ul class="networks__item networks__item--dekor">
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-instagram_grey"
-                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-twitter_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-facebook_grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" class="networks__icons">
-                        <svg width="20" height="20">
-                          <use
-                            href="./images/icons.svg#icon-linkedin-grey"                            
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                 </div>
-               </div>
+                  <p lang="en" class="card__profession card__profession--decor">
+                    UI Designer
+                  </p>
+                  <div class="networks">
+                    <ul class="networks__item networks__item--dekor">
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-instagram_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-twitter_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-facebook_grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="networks__icons">
+                          <svg width="20" height="20">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-grey"
+                            ></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </li> 
+            </li>
           </ul>
         </div>
       </section>
@@ -410,49 +532,39 @@
       <section class="section">
         <div class="container">
           <h2 class="part part--decor">Постійні клієнти</h2>
-          <ul class="symbol ">
+          <ul class="symbol">
             <li class="symbol__distance">
               <a href="" class="symbol__box">
                 <svg width="41" height="46.7">
-                  <use
-                    href="./images/icons.svg#icon-group_yaco_gray"                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-group_yaco_gray"></use>
                 </svg>
               </a>
             </li>
             <li class="symbol__distance">
               <a href="" class="symbol__box">
                 <svg width="40" height="52">
-                  <use
-                    href="./images/icons.svg#icon-group_covpany_th"                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-group_covpany_th"></use>
                 </svg>
               </a>
             </li>
             <li class="symbol__distance">
               <a href="" class="symbol__box">
                 <svg width="43.46" height="41.18">
-                  <use
-                    href="./images/icons.svg#icon-group_covpany"                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-group_covpany"></use>
                 </svg>
               </a>
             </li>
             <li class="symbol__distance">
               <a href="" class="symbol__box">
                 <svg width="84.44" height="40.62">
-                  <use
-                    href="./images/icons.svg#icon-group_foster_peter"                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-group_foster_peter"></use>
                 </svg>
               </a>
             </li>
             <li class="symbol__distance">
               <a href="" class="symbol__box">
                 <svg width="62.54" height="45.43">
-                  <use
-                    href="./images/icons.svg#icon-group_brand"                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-group_brand"></use>
                 </svg>
               </a>
             </li>
@@ -460,7 +572,7 @@
               <a href="" class="symbol__box">
                 <svg width="93.79" height="43.93">
                   <use
-                    href="./images/icons.svg#icon-group_tag_line_copany"                    
+                    href="./images/icons.svg#icon-group_tag_line_copany"
                   ></use>
                 </svg>
               </a>
@@ -472,31 +584,32 @@
     <!-- logo&addrees -->
     <footer class="sectfoot">
       <div class="container containera--dekor">
-        <div class="">
-          <a href="./" lang="en" class="logo logwhite">
-            Web<span class="logo__proportion logo__proportion--decor">Studio</span>
+        <div class="studio">
+          <a href="./" lang="en" class="logo logwhite">Web<span class="logo__proportion logo__proportion--decor">Studio</span>
           </a>
           <address id="addresstudio" class="ada">
             <ul class="st-no-point st-no-pointfoot">
               <li>
-                <a href="map" class="st-no-line townstreet"
-                  >м. Київ, пр-т Лесі Українки, 26</a
-                >
+                <a href="map" class="st-no-line townstreet">
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
               </li>
               <li>
                 <a
                   href="mailto:info@devstudio.com"
                   lang="en"
                   class="st-no-line telmailfoot"
-                  >info@devstudio.com</a
                 >
+                  info@devstudio.com
+                </a>
               </li>
               <li>
                 <a
                   href="tel:+380961111111"
                   class="st-no-line telmailfoot tellfon"
-                  >+38 096 111 11 11</a
                 >
+                  +38 096 111 11 11
+                </a>
               </li>
             </ul>
           </address>
@@ -504,44 +617,32 @@
         <!-- socilbox -->
         <div class="socilboxfooter">
           <p class="join">Приєднуйтесь</p>
-          <ul class="st-no-point whataround ">
+          <ul class="st-no-point whataround">
             <li class="what">
               <a href="" class="socialiconsfooter">
                 <svg class="svgen" width="20" height="20">
-                  <use
-                    href="./images/icons.svg#icon-instagram_grey"
-                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-instagram_grey"></use>
                 </svg>
               </a>
             </li>
             <li class="what">
               <a href="" class="socialiconsfooter">
                 <svg class="svgen" width="20" height="20">
-                  <use
-                    href="./images/icons.svg#icon-twitter_grey"
-                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-twitter_grey"></use>
                 </svg>
               </a>
             </li>
             <li class="what">
               <a href="" class="socialiconsfooter">
                 <svg class="svgen" width="20" height="20">
-                  <use
-                    href="./images/icons.svg#icon-facebook_grey"
-                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-facebook_grey"></use>
                 </svg>
               </a>
             </li>
             <li class="what">
               <a href="" class="socialiconsfooter">
                 <svg class="svgen" width="20" height="20">
-                  <use
-                    href="./images/icons.svg#icon-linkedin-grey"
-                    
-                  ></use>
+                  <use href="./images/icons.svg#icon-linkedin-grey"></use>
                 </svg>
               </a>
             </li>
@@ -560,11 +661,11 @@
               minlength="5"
               required
             />
-            ></label
-          >
+            >
+          </label>
           <button type="submit" class="mailinglist-button">
-            <span class="mailinglist-buttontext"
-              >Підписатися
+            <span class="mailinglist-buttontext">
+              Підписатися
               <svg width="24" height="24" class="picture_airplane">
                 <use href="./images/icons.svg#icon-airplane"></use>
               </svg>
@@ -573,7 +674,7 @@
         </div>
       </div>
     </footer>
-    
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <!-- переробка кномпки закритя -->
@@ -667,12 +768,109 @@
               </span>
               Погоджуюся з розсилкою та приймаю
             </label>
-            <a href="" class="form-txpogodgin">Умови договору </a>
+            <a href="" class="form-txpogodgin">Умови договору</a>
           </div>
           <button type="submit" class="submitik">Відправити</button>
         </form>
       </div>
     </div>
+  
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+              class="button-nav__svgen-close"
+              width="24"
+              height="16"
+              aria-label="Перемикач меню"
+            >
+              <use
+                class="button-nav__iconcontact"
+                href="./images/icons.svg#icon-vector_close_black"
+              ></use>
+            </svg>
+        </svg>
+      </button>
+
+      <div class="mobile-menu">
+        <nav class="headrnavs-smartmobil">
+          <ul class="navigation-smartmobil">
+            <li class="navigation-smartmobil__title">
+              <a
+                href="./"
+                class="navigation-smartmobil__page navigation-smartmobil__page--dekor"
+              >
+                Студія
+              </a>
+            </li>
+            <li class="navigation-smartmobil__title">
+              <a
+                href="./portfolio.html"
+                class="navigation-smartmobil__chapter navigation-smartmobil__chapter--dekor"
+              >
+                Портфоліо
+              </a>
+            </li>
+            <li class="navigation__title">
+              <a
+                href="#addresstudio"
+                class="navigation-smartmobil__chapter navigation-smartmobil__chapter--dekor"
+              >
+                Контакти
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-menu_conteiner-mobile">
+         <ul class="connection-smartmobil">
+          <li class="connection-smartmobil__list connection-smartmobil__list--backdown">
+            <a
+              href="tel:+380961111111"
+              class="connection-smartmobil__tell connection-smartmobil__tell--backdown"
+            >
+              +38 096 111 11 11
+            </a>
+          </li>
+          <li
+            class="connection-smartmobil__list connection-smartmobil__list--backdown"
+          >
+            <a
+              href="mailto:info@devstudio.com"
+              lang="en"
+              class="connection-smartmobil__mail connection-smartmobil__mail--backdown"
+            >info@devstudio.com
+            </a>
+          </li>
+          
+        </ul>
+        <ul class="whataround-smartmobil">
+
+        
+          <li class="what-smartmobil">
+            <a href="" class="socialiconsfooter-smartmobil socialiconsfooter-smartmobil--decor">
+              Instagram
+            </a>
+          </li>
+          <li class="what-smartmobil">
+            <a href="" class="socialiconsfooter-smartmobil socialiconsfooter-smartmobil--decor">
+              Twitter
+            </a>
+          </li>
+          <li class="what-smartmobil">
+            <a href="" class="socialiconsfooter-smartmobil socialiconsfooter-smartmobil--decor">
+              Facebook
+            </a>
+          </li>
+          <li class="what-smartmobil">
+            <a href="" class="socialiconsfooter-smartmobil">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

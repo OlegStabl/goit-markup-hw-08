@@ -1,4 +1,5 @@
 .section--margin {
+   width: 100%;
     margin: 0px auto;
     background-color: #F5F4FA;
  }
@@ -8,23 +9,38 @@
   margin-top: 0px;  
   margin-bottom: 0px;
   margin-left: 0px;
-  &--decor{
-    display: flex; 
-    justify-content: space-between;
-  }
+   
+  
+  
   
   &__foto {
-    width: 270px;
+    width:100%;
     background: #ffffff;  
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+   
+  
+    
+    @media screen and (min-width: 480px){
+      width: 450px;
+      
+    }
+    @media screen and (min-width: 768px){
+      width: 354px;      
+    }
+
+    @media screen and (min-width: 1200px){
+      width: 270px;     
+    }
   } 
   
   &__blok {
     width: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+   
+    
   }
   
   &__profession--decor {
@@ -53,3 +69,50 @@
 
 } 
 
+.card--decor{
+  
+  @media screen and (min-width: 480px) {
+     display: flex; 
+     flex-wrap: wrap;
+     justify-content: center;
+     
+   }
+  
+   @media screen and (min-width: 768px) {
+     justify-content: space-between;
+   }
+}
+
+.card>li:not(:last-child) {
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+ 
+  
+}
+
+.card>li{
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+}
+
+.card>li:nth-child(n + 2){
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+
+}
+
+
+
+ 

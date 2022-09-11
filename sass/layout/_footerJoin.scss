@@ -13,7 +13,7 @@
  }
 
  .socialiconsfooter {
-  display: flex;
+  display: flex;  
   width: 44px;
   height: 44px;
   border-radius: 22px;
@@ -29,14 +29,35 @@
   &:hover {
   fill: #ffffff;
   background-color: #2196f3;
+  }
+
 }
+
+.whataround
+ {
+   display: flex;
+  justify-content: space-between;
+  
 
 }
 
 
 .socilboxfooter {
+ 
   width: 206px;
-  margin-left: 95px;
-  margin-right: 93px;
-  padding-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+   margin-left: 95px;
+   margin-right: 93px;
+   padding-bottom: 30px;
+ }
+ 
+  @media screen and (max-width: 1199.5px){
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
 }
+
+  }
+
+ 
