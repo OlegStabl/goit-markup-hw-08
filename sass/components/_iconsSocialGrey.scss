@@ -1,0 +1,45 @@
+//! піктограми сщціальних іконок collective*pfoto 
+
+.networks{
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.networks__item { 
+  list-style: none;
+  margin-top: 0px;
+  color: currentcolor;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  
+}
+
+.networks__item--dekor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.networks__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #ffffff;   
+  fill: #afb1b8;
+
+  transition-duration: 250ms;
+  transition-property: background-color, fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+     fill: #ffffff;
+     background-color: #2196f3;
+   } 
+}
+ 

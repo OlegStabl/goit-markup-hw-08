@@ -1,0 +1,157 @@
+.svgen-close {
+   position: absolute;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   
+   transition-duration: 250ms;
+   transition-property: border, fill;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ 
+ .modal {
+   padding: 40px;
+ }
+ .modal-title {
+   margin-top: 0;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.15;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #212121;
+   margin-bottom: 12px;
+ }
+ 
+//  колонтитул
+ .st-no-pointcontact {
+   list-style: none;
+ }
+ 
+ .st-no-pointcontact li {
+   margin-bottom: 10px;
+ }
+ .st-no-pointcontact li:last-child {
+   margin-bottom: 20px;
+ }
+ 
+ .nametelmaelcontact {
+   cursor: pointer;
+   width: 100%;
+   height: 40px;
+   border: 1px solid rgba(33, 33, 33, 0.2);
+   border-radius: 4px;
+   padding-left: 42px;
+ 
+   transition-duration: 250ms;
+   transition-property: border, fill;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &:focus,
+   &:hover {
+     border-color: #2196f3;
+   }
+   
+ }
+
+ .nametelmaelcontacts > p {
+   font-style: normal;
+   font-size: 12px;
+   line-height: 1.16;
+   letter-spacing: 0.01em;
+   color: #757575;
+   margin-top: 0px;
+   margin-bottom: 4px;
+   margin: 0px;
+   margin-bottom: 4px;
+ }
+ 
+ .coment_contacts {
+   cursor: pointer;
+   width: 100%;
+   border: 1px solid rgba(33, 33, 33, 0.2);
+   border-radius: 4px;
+   height: 120px;
+   padding: 0;
+ 
+   resize: none;
+   padding: 12px 16px;
+ 
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 1.16;
+   letter-spacing: 0.01em;
+   color: rgba(117, 117, 117, 0.5);
+ 
+   transition-duration: 250ms;
+   transition-property: border, fill;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+
+   &:focus,
+   &:hover {
+     border-color: #2196f3;
+  }
+ }
+ 
+ 
+ /* оформлення іконок */
+ .iconoboxcontact {
+   position: relative;
+   text-align: center;
+   justify-content: center;
+
+   &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+  }
+
+   &:focus-within .svgen-contat {
+    fill: #2196f3;
+  }
+  
+   &:hover ~ .svgen-contat {
+    fill: #2196f3;
+  }
+  
+ }
+ 
+ 
+ .svgen-contat {
+   position: absolute;
+   top: 50%;
+   left: 12px;
+   transform: translateY(-50%);
+   
+   transition-duration: 250ms;
+   transition-property: border, fill;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover {
+    fill: #2196f3;
+  }
+ }
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+ 

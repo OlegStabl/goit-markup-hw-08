@@ -1,0 +1,38 @@
+.portfoliofoto {
+  box-sizing: border-box;
+  width: 370px;
+  background: #ffffff;
+}
+.textbotoomboxportfolio {
+  width: 370px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
+// button&foto position
+.butwork:not(:last-child) {
+  margin-right: 8px;
+  justify-content: center;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.st-no-point.flex-box > li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.st-no-point.flex-box > li:nth-child(3n) {
+  margin-right: 0px;
+}
+.st-no-point.flex-box > li:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+

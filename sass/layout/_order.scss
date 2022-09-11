@@ -1,0 +1,38 @@
+.order__slogan {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: #ffffff;
+  }
+
+.basis {
+   
+   padding-top: 200px;
+   padding-bottom: 200px;
+   background: #2f303a;
+ }
+ .gradient.basis {
+   max-width: 1600px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: linear-gradient(
+       rgba(47, 48, 58, 0.4),
+       rgba(47, 48, 58, 0.4)
+     ),
+     url(../images/fon_h_fotto.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+
+.order {
+  max-width: 680px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+ 

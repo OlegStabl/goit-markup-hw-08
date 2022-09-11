@@ -1,0 +1,156 @@
+
+
+.navigation__page {
+   position: relative;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: #26e452;
+    &--dekor {
+      text-decoration: none;
+      color: currentcolor;
+      margin-bottom: 0px;
+      margin-left: 0px;
+     }
+
+ }
+
+.connection__icon {
+  margin-right: 10px;
+  
+ 
+ }
+ .connection__item {
+  
+   font-weight: 500;
+   margin-bottom: 0px;
+   line-height: 1.14px;
+   letter-spacing: 0.02em;
+   color: #259;
+   &--backdown{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-decoration: none;   
+    
+    
+       
+   }
+ }
+
+.navigation__chapter {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
+    &--dekor {
+      text-decoration: none;      
+      margin-bottom: 0px;
+      margin-left: 0px;
+     }
+    &--backdown {
+      display: flex;
+      
+    }
+ 
+ }
+.navigation__chapter {
+ 
+  justify-content: center;
+
+  transition-duration: 250ms;
+  transition-property: background-color, color, fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    color: #2196f3;
+    fill: #2196f3;
+  }
+ }
+
+
+ .connection__item {
+  display: block;
+  color: var(--textheadrgre-color);
+  justify-content: center;
+
+  transition-duration: 250ms;
+  transition-property: background-color, color, fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    color: #2196f3;
+    fill: #2196f3;
+  }
+ }
+
+
+.navigation {
+  position: relative;
+  display: flex; 
+  list-style: none;
+  color: currentcolor;  
+ }
+
+.connection {
+  position: relative;
+  display: flex; 
+  list-style: none;
+    
+ }
+
+
+.connection__list:not(:last-child) {
+  margin-right: 30px;
+ }
+.navigation__title:not(:last-child) {
+    margin-right: 50px;
+
+ }
+
+.haedrnav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 24px;
+ 
+ }
+.headrnavs {
+  display: flex;
+  align-items: center;
+ }
+
+
+
+
+
+.navigatio__emphasis {
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  padding-left: 0.05px;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-top: 2px solid #2196f3;
+    border-bottom: 2px solid #2196f3;
+    background-color: #2196f3;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: -33px;
+  }
+ }
+

@@ -1,0 +1,36 @@
+.portfolishdow-img {
+   display: block;
+   position: relative;
+   overflow: hidden;
+   width: auto;
+   &:hover .portfolishdow-icontext,
+   &:hover {
+   transform: translateY(0px);
+  }
+ }
+ 
+ 
+ .portfolishdow-icontext {
+   content: "";
+   display: inline-block;
+   width: 100%;
+   height: 294px;
+   position: absolute;
+   background-color: rgba(33, 150, 243, 0.9);
+   top: 0;
+   left: 0;
+   overflow: hidden;
+ 
+   transform: translateY(294px);
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
+   position: absolute;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 1.55;
+   letter-spacing: 0.03em;
+   color: #ffffff;
+   padding: 63px 24px;
+ }
+ 

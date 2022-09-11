@@ -1,0 +1,59 @@
+.st-no-pointfoot {
+  display: block;
+}
+
+.ada {
+   font-style: normal;
+   margin-top: 20px;
+ }
+ 
+ .townstreet {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: #ffffff;
+ 
+   transition-duration: 250ms;
+   transition-property: color;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+   &:hover,
+   &:focus {
+     color: #2196f3;
+   }  
+
+ }
+ 
+ .telmailfoot {
+   display: block;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.02em;
+   color: rgba(255, 255, 255, 0.6);
+
+   margin-top: 9px;
+   margin-bottom: 0px;
+ 
+   transition-duration: 250ms;
+   transition-property: color;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover,
+   &:focus,
+   &:hover,
+   &:focus {
+     color: #2196f3;
+   }
+   &.tellfon {
+    margin-top: 9px;
+  }
+ }
+
+
+
+
+.st-no-line .townstreet {
+  margin-bottom: 33px;
+}
+
