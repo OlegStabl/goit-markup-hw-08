@@ -295,6 +295,7 @@ a {
   .connection__item--backdown {
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-right: 30px;
   }
 }
 
@@ -377,16 +378,21 @@ a {
   margin-right: 50px;
 }
 
-.connection_tabl {
-  display: flex;
-}
-
 .connection__list:not(:last-child) {
   display: flex;
   margin-right: 0px;
 }
 @media screen and (min-widht: 1200px) {
   .connection__list:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.connection__list--backdown:last-child {
+  margin-right: 0px;
+}
+@media screen and (min-widht: 1200px) {
+  .connection__list--backdown:last-child {
     margin-right: 30px;
   }
 }
@@ -398,20 +404,17 @@ a {
 .haedrnav {
   position: relative;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 479.5) {
+@media screen and (max-width: 1199px) {
   .haedrnav {
-    display: none;
+    height: 60px;
   }
 }
-
 .headrnavs {
-  display: flex;
   align-items: center;
 }
-@media screen and (max-width: 479.5) {
+@media screen and (max-width: 767px) {
   .headrnavs {
     display: none;
   }
@@ -460,23 +463,6 @@ a {
   }
 }
 
-.haedrnav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-@media screen and (max-width: 1199px) {
-  .haedrnav {
-    height: 60px;
-  }
-}
-
-.button-nav__svgen-open {
-  position: absolute;
-  top: 22px;
-  right: 35px;
-}
-
 .button-nav__svgen-close {
   position: absolute;
   top: 21px;
@@ -499,7 +485,7 @@ a {
 .menu-toggle {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   top: 0px;
   right: 0px;
   background-color: transparent;
@@ -507,6 +493,7 @@ a {
   border: none;
   border-radius: 0%;
   outline: none;
+  margin-left: auto;
 }
 
 @media (min-width: 768px) {
@@ -717,7 +704,12 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (max-width: 1199.5px) {
+@media screen and (min-width: 1200px) {
+  .order__buttorder {
+    width: 216px;
+  }
+}
+@media screen and (max-width: 1199px) {
   .order__buttorder {
     width: 200px;
   }
@@ -948,10 +940,20 @@ a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+@media screen and (max-width: 1199px) {
+  .form-txdogovor {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-txdogovor {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 .form-txdogovor::before {
   display: flex;
@@ -1016,18 +1018,37 @@ a {
   position: relative;
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+@media screen and (max-width: 1199px) {
+  .form-txpogodgin {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-txpogodgin {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
 .form-txpogodgin::after {
   position: absolute;
-  bottom: 5.5px;
   content: "";
   width: 100%;
   right: 0;
   border-bottom: 0.5px solid #2196f3;
+}
+@media screen and (max-width: 1199px) {
+  .form-txpogodgin::after {
+    bottom: 3.5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-txpogodgin::after {
+    bottom: 5.5px;
+  }
 }
 
 .svgen-close {
@@ -1048,12 +1069,22 @@ a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 12px;
+}
+@media screen and (max-width: 1199px) {
+  .modal-title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-title {
+    font-size: 20px;
+    line-height: 1.15;
+  }
 }
 
 .st-no-pointcontact {
@@ -1510,6 +1541,11 @@ a {
     width: 354px;
   }
 }
+@media screen and (max-width: 479px) {
+  .portfoliofoto {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 767px) {
   .portfoliofoto {
     width: 450px;
@@ -1532,6 +1568,11 @@ a {
 @media screen and (min-width: 768px) {
   .textbotoomboxportfolio {
     width: 354px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .textbotoomboxportfolio {
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1689,6 +1730,18 @@ a {
   background-color: #fff;
   opacity: 1;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .backdrop.is-hidden {
@@ -1853,4 +1906,45 @@ a {
 
 .picture_airplane {
   fill: #ffffff;
+}
+
+.submitik {
+  position: fixed;
+  right: 50%;
+  transform: translate(50%);
+  bottom: 40px;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.submitik:focus, .submitik:hover {
+  background: #188ce8;
+}
+
+.modalose {
+  cursor: pointer;
+  position: absolute;
+  justify-content: center;
+  width: 29px;
+  height: 29px;
+  border-radius: 15px;
+  top: 8px;
+  right: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+.modalose:hover, .modalose:focus {
+  fill: #2196f3;
 }/*# sourceMappingURL=main.css.map */

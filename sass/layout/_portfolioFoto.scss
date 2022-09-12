@@ -9,12 +9,11 @@
  @media screen and(max-width:479px) {
   width: 100%;
 }
+
  @media screen and(max-width:767px) {
    width: 450px;
  }
- @media screen and(min-width:480px) {
-  width: 450px;
-}
+
 
 
   background: #ffffff;
@@ -29,12 +28,11 @@
     @media screen and(max-width:479px) {
       width: 100%;
     }
+   
     @media screen and(max-width:767px) {
       width: 450px;
     }
-    @media screen and(min-width:480px) {
-      width: 450px;
-    }
+    
    
 
   border-left: 1px solid #eeeeee;
