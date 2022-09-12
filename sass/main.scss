@@ -1,53 +1,8 @@
 //!  загальна
 
-// @import'./base/reset';
-// @import'./base/common';
-
-
-
-
-// @import'./components/logo';
-// @import'./components/line';
-// @import'./components/buttons';
-// @import'./components/socialiconsfooter';
-// @import'./components/_navigationHeadr';
-// @import'./components/iconsSocialGrey';
-// @import'./components/windowContac';
-
-
-
-
-// @import'./layout/footerContact';
-// @import'./layout/footerJoin';
-@import'./layout/order';
-// @import'./layout/weOffer';
-// @import'./layout/portfolioFoto';
-// @import'./layout/portfolioText';
-// @import'./layout/portfoliShdow';
-// @import'./layout/collective';
-// @import'./layout/textPhotoImage';
-// @import'./layout/portfoioAnimation';
-// @import'./layout/customers';
-// @import'./layout/decorationContac';
-// @import'./layout/checkbox';
-// @import'./layout/subscription';
-
-
-// @import'./utils/visually-hidden';
-// @import'./utils/variables.scss';
-
-
-// renderings renderings--decor, card  card--decor
-
-// часто зустрічаються    part part--decor
-
-
-//! Підключення трьох видів адаптацій через файли  "_a_index.scss"
-
 @import'./a_base/a_index_base';
 
 @import'./utils/a_index_utils';
-
 
 @import './a_smartphone/a_index_smartphone';
 
