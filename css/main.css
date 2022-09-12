@@ -457,12 +457,14 @@ a {
   background-color: #60dfa4;
   z-index: 1;
   transform: translateX(400%);
+  transform: translateY(200%);
   transition: transform 250ms ease-in-out;
   transition-duration: 500ms;
 }
 
 .menu-container.is-open {
   transform: translateX(0);
+  transform: translateY(0);
   transition-duration: 500ms;
 }
 
