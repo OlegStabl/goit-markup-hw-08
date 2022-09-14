@@ -3,7 +3,7 @@
   @media screen and(min-width:1200px) {
    width: 370px;
  }
- @media screen and(min-width:768px) {
+ @media screen and(max-width:1199px) {
    width: 354px;
  }
  @media screen and(max-width:479px) {
@@ -22,14 +22,14 @@
    @media screen and(min-width:1200px) {
       width: 370px;
     }
-    @media screen and(min-width:768px) {
+    @media screen and(max-width:1199px) {
       width: 354px;
     }
     @media screen and(max-width:479px) {
       width: 100%;
     }
    
-    @media screen and(max-width:767px) {
+    @media screen and(min-width:480px) {
       width: 450px;
     }
     

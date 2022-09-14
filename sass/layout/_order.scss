@@ -22,52 +22,60 @@ $gradient: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
 //   text-align: center;
 // }
 
-.gradient.basis {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-@media screen and (max-width: 767.5px) {
-  .gradient.basis {
-    min-width: 310px;
-    background-image: $gradient, url(../images/smart/fon_h_fotto_first.jpg);
-  }
 
-  @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .gradient.basis {
-      min-width: 310px;
-      background-image: $gradient, url(../images/smart/fon_h_fotto_next.jpg);
-    }
-  }
-}
 
-@media screen and (min-width: 768px) {
-  .gradient.basis {
+
+
+
+
+
+// .gradient.basis {
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// @media screen and (max-width: 767.5px) {
+//   .gradient.basis {
+//     min-width: 310px;
+//     background-image: $gradient, url(../images/smart/fon_h_fotto_first.jpg);
+//   }
+
+//   @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//     .gradient.basis {
+//       min-width: 310px;
+//       background-image: $gradient, url(../images/smart/fon_h_fotto_next.jpg);
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .gradient.basis {
    
-    background-image: $gradient, url(../images/tabl/fon_h_fotto_first.jpg);
-  }
+//     background-image: $gradient, url(../images/tabl/fon_h_fotto_first.jpg);
+//   }
 
-  @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .gradient.basis {
+//   @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//     .gradient.basis {
       
-      background-image: $gradient, url(../images/tabl/fon_h_fotto_next.jpg);
-    }
-  }
-}
+//       background-image: $gradient, url(../images/tabl/fon_h_fotto_next.jpg);
+//     }
+//   }
+// }
 
-@media screen and (min-width: 1200px) {
-  .gradient.basis {
-    max-width: 1600px;
-    background-image: $gradient, url(../images/laptop/fon_h_fotto_first.jpg);
-  }
+// @media screen and (min-width: 1200px) {
+//   .gradient.basis {
+//     max-width: 1600px;
+//     background-image: $gradient, url(../images/laptop/fon_h_fotto_first.jpg);
+//   }
 
-  @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .gradient.basis {
+//   @media (min-device-pixel-ratio), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//     .gradient.basis {
       
-      background-image: $gradient, url(../images/laptop/fon_h_fotto_next.jpg);
-    }
-  }
-}
+//       background-image: $gradient, url(../images/laptop/fon_h_fotto_next.jpg);
+//     }
+//   }
+// }

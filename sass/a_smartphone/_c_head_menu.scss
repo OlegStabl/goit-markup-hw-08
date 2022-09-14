@@ -1,9 +1,19 @@
+.logo-nav{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  @media screen and (max-width:767px){
+  justify-content: space-between;
+  width: 678px;
+}
+}
+
 .navigation__page {
  
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #26e452;
+
   &--dekor {
     text-decoration: none;
     color: currentcolor;
@@ -28,11 +38,14 @@
   &--backdown {
     text-decoration: none;
     @media screen and (min-width:768px){
-      padding-top: 0px;
+     
+      padding-top: 0px;      
       padding-bottom: 10px;
       
     }
     @media screen and (min-width:1200px){
+      
+      justify-content: center;
       padding-top: 32px;
       padding-bottom: 32px;
       margin-right: 30px;
@@ -40,7 +53,14 @@
     
 
   }
+  
+  &--backdown:last-child {
+    @media screen and (min-width:1200px){
+      margin-right: 30px;
+    }
 }
+}
+
 
 .navigation__chapter {
   font-weight: 500;
@@ -48,17 +68,18 @@
   letter-spacing: 0.02em;
   color: #212121;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 33px;
   &--dekor {
-    text-decoration: none;
     margin-bottom: 0px;
     margin-left: 0px;
    }
   
-  &--backdown {
+  &--dekor {
     display: flex;
   }
 }
+
+
 
 .navigation__chapter {
   justify-content: center;
@@ -113,30 +134,45 @@
 
 
 .connection {
-
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  @media screen and ( min-widht: 768px){
-      flex-direction: column;
+  @media screen and (min-width:1200px){
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
 
   }
-  @media screen and ( min-widht: 1200px){
-    flex-direction: row;
 
- }
+   .connection_tabl{
+    display: flex;
+    align-items: flex-end;   
   }
+  
+  
   .navigation__title:last-child {
-    margin-right: 50px;
+    
+    margin-right: 0px;
   }
 
   // .connection_tabl{
   //   display: flex;   
   // }
-
+  .connection__list{
+   
+    @media screen and (min-width:768px){
+      font-size: 12px;
+      line-height: 1.16;
+      
+    }
+    @media screen and (min-width:1200px){
+      display: flex;
+      align-items: center;
+      font-size: 14px;}
+      line-height: 1.17;
+  }
 
 .connection__list:not(:last-child) {
-  display: flex;
+  
   margin-right: 0px;
   @media screen and ( min-widht: 1200px){
     margin-right: 30px;}
@@ -167,6 +203,9 @@
   display: flex;
   
   align-items: center;
+  @media screen and (min-width:768px) {
+  justify-content: space-between;
+  }
 }
 
 .headrnavs {
@@ -381,7 +420,7 @@
 .whataround-smartmobil {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .socialiconsfooter-smartmobil {
   font-family: 'Roboto';
@@ -400,3 +439,6 @@
    height: 22px;
    border-right: 1px solid rgba(33, 33, 33, 0.2);;
 }
+
+
+
